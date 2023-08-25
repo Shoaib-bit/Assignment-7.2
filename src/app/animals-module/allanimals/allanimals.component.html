@@ -1,0 +1,12 @@
+<p> All Animals</p>
+<div class="container">
+    <div class="box" *ngFor="let animals of animals">
+        <p>Name : <Span>{{animals.name}}</Span></p>
+        <p>Species : <span>{{animals.species}}</span></p>
+    </div>  
+    <div class="main">
+        <app-fiveanimals [data]="fiveAnimals"></app-fiveanimals>
+    </div>
+    
+</div>
+
